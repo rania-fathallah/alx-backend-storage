@@ -18,5 +18,5 @@ BEGIN
     END IF;
 
     -- Add the correction record
-    INSERT INTO corrections (user_id, project_id, score) VALUES (user_id, project_name, score);
+    INSERT INTO corrections (user_id, project_id, score) VALUES (user_id, project_id, score);
 END;
