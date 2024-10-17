@@ -5,7 +5,7 @@ FOR EACH ROW
 BEGIN
     -- Check if the email has changed
     IF OLD.email != NEW.email THEN
-        -- Reset valid_email to 0
-        SET NEW.valid_email = 0;
+        -- Reset valid_email to its default value
+        SET NEW.valid_email = DEFAULT;
     END IF;
 END;
