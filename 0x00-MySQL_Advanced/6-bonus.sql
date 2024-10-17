@@ -2,7 +2,7 @@
 CREATE PROCEDURE AddBonus (
     IN user_id INT,
     IN project_name VARCHAR(255),
-    IN score FLOAT
+    IN score INT
 )
 BEGIN
     DECLARE project_id INT;
