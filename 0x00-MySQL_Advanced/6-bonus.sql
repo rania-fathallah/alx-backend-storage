@@ -1,8 +1,8 @@
 -- Creates a stored procedure that adds a new correction for a student
 CREATE PROCEDURE AddBonus (
-    IN user_id INT,
-    IN project_name VARCHAR(255),
-    IN score INT
+    user_id INT,
+    project_name VARCHAR(255),
+    score INT
 )
 BEGIN
     DECLARE project_id INT;
